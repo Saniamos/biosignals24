@@ -1,0 +1,27 @@
+,<module 'loss.CompositionalLoss' from '/share/temp/students/jonah/ma-jonah/pipeline/loss/CompositionalLoss.py'>,<module 'loss.CompositionalLoss' from '/share/temp/students/jonah/ma-jonah/pipeline/loss/CompositionalLoss.py'>
+epoch,train_loss,val_loss
+1,8444.138533244473,9109.492076223507
+2,7885.754181669379,8318.830022486754
+3,7878.856936296852,8923.476223625987
+4,7892.924502266804,8328.52244654574
+5,7884.672095139454,9402.574923352751
+6,7887.18547724784,8566.072081351129
+7,7881.4018314378745,8343.511997089601
+8,nan,nan
+9,nan,nan
+10,nan,nan
+11,nan,nan
+12,nan,nan
+13,nan,nan
+14,nan,nan
+15,nan,nan
+16,nan,nan
+17,nan,nan
+18,nan,nan
+19,nan,nan
+20,nan,nan
+21,nan,nan
+22,nan,nan
+23,nan,nan
+24,nan,nan
+25,

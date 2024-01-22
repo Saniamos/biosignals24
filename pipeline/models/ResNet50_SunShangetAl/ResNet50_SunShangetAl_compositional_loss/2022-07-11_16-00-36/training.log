@@ -1,0 +1,84 @@
+{'name': 'ResNet50_SunShangetAl_compositional_loss', 'epochs': 25, 'learning_rate': 0.03, 'lr_decay_milestones': [10, 20], 'lr_decay_gamma': 0.1, 'weight_decay': 0.0002, 'loss_function': <module 'loss.CompositionalLoss' from '/share/temp/students/jonah/ma-jonah/pipeline/loss/CompositionalLoss.py'>, 'momentum': 0.9, 'optimizer': <class 'torch.optim.sgd.SGD'>, 'use_rotation_data': False, 'shuffle': True, 'batch_size': 8, 'normalize': True, 'description': '\nResNet50 wie beschrieben im Paper: Compositional Human Pose Regression.\nAls Loss kommt der im Paper beschriebene Compositional Loss zum Einsatz.\n'}
+
+Start training of model: ResNet50_SunShangetAl_compositional_loss
+
+Starting epoch 1/25
+    Train loss after mini-batch   100: 10464.332
+    Train loss after mini-batch   200: 5498.589
+    Train loss after mini-batch   300: 3839.879
+    Train loss after mini-batch   400: 3000.107
+    Train loss after mini-batch   500: 2499.231
+    Train loss after mini-batch   600: 2154.609
+    Train loss after mini-batch   700: 1909.838
+    Train loss after mini-batch   800: 1733.954
+    Train loss after mini-batch   900: 1603.793
+    Train loss after mini-batch  1000: 1495.126
+    Train loss after mini-batch  1100: 1403.578
+    Train loss after mini-batch  1200: 1325.537
+    Train loss after mini-batch  1300: 1258.037
+    Train loss after mini-batch  1400: 1199.570
+    Train loss after mini-batch  1500: 1150.477
+    Train loss after mini-batch  1600: 1108.077
+    Train loss after mini-batch  1700: 1071.565
+    Train loss after mini-batch  1800: 1040.904
+    Train loss after mini-batch  1900: 1009.726
+    Train loss after mini-batch  2000: 981.497
+    Train loss after mini-batch  2100: 963.328
+    Train loss after mini-batch  2200: 942.329
+    Train loss after mini-batch  2300: 919.676
+    Train loss after mini-batch  2400: 900.133
+    Train loss after mini-batch  2500: 884.055
+    Train loss after mini-batch  2600: 867.773
+    Train loss after mini-batch  2700: 852.318
+    Train loss after mini-batch  2800: 837.186
+    Train loss after mini-batch  2900: 823.274
+    Train loss after mini-batch  3000: 809.588
+    Train loss after mini-batch  3100: 797.732
+    Train loss after mini-batch  3200: 786.878
+Epoch: 1/25, Train Loss: 780.42127857, Val Loss: 78448.34030808
+
+Starting epoch 2/25
+    Train loss after mini-batch   100: 494.830
+    Train loss after mini-batch   200: 458.145
+    Train loss after mini-batch   300: 442.423
+    Train loss after mini-batch   400: 440.853
+    Train loss after mini-batch   500: 437.506
+    Train loss after mini-batch   600: 448.891
+    Train loss after mini-batch   700: 448.869
+    Train loss after mini-batch   800: 456.179
+    Train loss after mini-batch   900: 454.741
+    Train loss after mini-batch  1000: 456.971
+    Train loss after mini-batch  1100: 458.406
+    Train loss after mini-batch  1200: 459.971
+    Train loss after mini-batch  1300: 457.596
+    Train loss after mini-batch  1400: 459.066
+    Train loss after mini-batch  1500: 458.363
+    Train loss after mini-batch  1600: 455.457
+    Train loss after mini-batch  1700: 457.922
+    Train loss after mini-batch  1800: 455.928
+    Train loss after mini-batch  1900: 455.961
+    Train loss after mini-batch  2000: 456.095
+    Train loss after mini-batch  2100: 456.382
+    Train loss after mini-batch  2200: 459.409
+    Train loss after mini-batch  2300: 460.371
+    Train loss after mini-batch  2400: 462.899
+    Train loss after mini-batch  2500: 465.477
+    Train loss after mini-batch  2600: 464.801
+    Train loss after mini-batch  2700: 465.200
+    Train loss after mini-batch  2800: 463.128
+    Train loss after mini-batch  2900: 463.118
+    Train loss after mini-batch  3000: 464.047
+    Train loss after mini-batch  3100: 466.604
+    Train loss after mini-batch  3200: 467.769
+Epoch: 2/25, Train Loss: 467.17754886, Val Loss: 23548.90651135
+
+Starting epoch 3/25
+    Train loss after mini-batch   100: 423.104
+    Train loss after mini-batch   200: 471.967
+    Train loss after mini-batch   300: 515.969
+    Train loss after mini-batch   400: 509.294
+    Train loss after mini-batch   500: 501.879
+    Train loss after mini-batch   600: 503.882
+    Train loss after mini-batch   700: 502.863
+Saving model... 
+Saved: models/ResNet50_SunShangetAl/ResNet50_SunShangetAl_compositional_loss/2022-07-11_16-00-36/model.pth

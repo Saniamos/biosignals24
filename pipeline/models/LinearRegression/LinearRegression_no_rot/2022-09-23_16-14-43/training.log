@@ -1,0 +1,18 @@
+{'name': 'LinearRegression_no_rot', 'epochs': 100, 'input_size': 407040, 'output_size': 63, 'lr_decay_milestones': [0], 'lr_decay_gamma': 1.0, 'loss_function': MSELoss(), 'optimizer': <class 'torch.optim.adam.Adam'>, 'use_rotation_data': False, 'shuffle': True, 'batch_size': 64, 'normalize': False, 'description': '\nEine einfache lineare Regression ohne Rotation\n'}
+
+Start training of model: LinearRegression_no_rot
+
+Starting epoch 1/100
+    Train loss after mini-batch   100: 69857146209.777
+    Train loss after mini-batch   200: 34931187378.061
+    Train loss after mini-batch   300: 23287792619.145
+    Train loss after mini-batch   400: 17465976521.246
+    Train loss after mini-batch   500: 13972854625.411
+    Train loss after mini-batch   600: 11644092898.386
+    Train loss after mini-batch   700: 9980684136.242
+    Train loss after mini-batch   800: 8733122276.001
+    Train loss after mini-batch   900: 7762792782.626
+    Train loss after mini-batch  1000: 6986534587.283
+    Train loss after mini-batch  1100: 6351406774.511
+    Train loss after mini-batch  1200: 5822135182.638
+    Train loss after mini-batch  1300: 5374287994.157

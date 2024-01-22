@@ -1,0 +1,8 @@
+{'name': 'ResNet50_SunShangetAl_compositional_loss', 'epochs': 25, 'learning_rate': 0.03, 'lr_decay_milestones': [10, 20], 'lr_decay_gamma': 0.1, 'loss_function': <module 'loss.CompositionalLoss' from '/share/temp/students/jonah/ma-jonah/pipeline/loss/CompositionalLoss.py'>, 'optimizer': <class 'torch.optim.sgd.SGD'>, 'output_size': 63, 'momentum': 0.9, 'weight_decay': 0.0002, 'use_rotation_data': False, 'shuffle': True, 'batch_size': 8, 'normalize': True, 'description': '\nResNet50 wie beschrieben im Paper: Compositional Human Pose Regression.\nAls Loss kommt der im Paper beschriebene Compositional Loss zum Einsatz.\n'}
+
+Start training of model: ResNet50_SunShangetAl_compositional_loss
+
+Starting epoch 1/25
+    Train loss after mini-batch   100: 595239.354
+    Train loss after mini-batch   200: 1243455359265.245
+    Train loss after mini-batch   300: nan

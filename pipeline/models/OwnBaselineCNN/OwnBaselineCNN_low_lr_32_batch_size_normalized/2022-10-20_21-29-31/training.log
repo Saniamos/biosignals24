@@ -1,0 +1,5 @@
+{'name': 'OwnBaselineCNN_low_lr_32_batch_size_normalized', 'epochs': 50, 'learning_rate': 1e-05, 'lr_decay_milestones': [100], 'lr_decay_gamma': 1, 'loss_function': MSELoss(), 'optimizer': <class 'torch.optim.adam.Adam'>, 'use_rotation_data': False, 'output_size': 126, 'shuffle': True, 'batch_size': 32, 'normalize': True}
+
+Start training of model: OwnBaselineCNN_low_lr_32_batch_size_normalized
+
+Starting epoch 1/50
