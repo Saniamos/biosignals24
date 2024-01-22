@@ -1,6 +1,6 @@
-# biosignals24
+# Biosignals24
 
-All code for the biosignals 24 paper "Gait Parameter Estimation from a Single Privacy Preserving Depth Sensor" is uploaded here.
+All code for the BIOSIGNALS Conference 2024 paper "Gait Parameter Estimation from a Single Privacy Preserving Depth Sensor" is uploaded here.
 
 For citation please use the following bibtex entry:
 
