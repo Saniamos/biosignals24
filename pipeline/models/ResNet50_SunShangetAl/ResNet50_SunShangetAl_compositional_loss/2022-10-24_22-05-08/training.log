@@ -1,0 +1,33 @@
+{'name': 'ResNet50_SunShangetAl_compositional_loss', 'epochs': 25, 'learning_rate': 0.001, 'lr_decay_milestones': [10, 20], 'lr_decay_gamma': 0.3, 'loss_function': <module 'loss.CompositionalLoss' from '/share/temp/students/jonah/ma-jonah/pipeline/loss/CompositionalLoss.py'>, 'optimizer': <class 'torch.optim.adam.Adam'>, 'output_size': 63, 'use_rotation_data': False, 'shuffle': True, 'batch_size': 8, 'normalize': True, 'description': '\nResNet50 wie beschrieben im Paper: Compositional Human Pose Regression.\nAls Loss kommt der im Paper beschriebene Compositional Loss zum Einsatz.\n'}
+
+Start training of model: ResNet50_SunShangetAl_compositional_loss
+
+Starting epoch 1/25
+    Train loss after mini-batch   100: 324.088
+    Train loss after mini-batch   200: 293.552
+    Train loss after mini-batch   300: 281.467
+    Train loss after mini-batch   400: 274.327
+    Train loss after mini-batch   500: 270.331
+    Train loss after mini-batch   600: 268.652
+    Train loss after mini-batch   700: 268.483
+    Train loss after mini-batch   800: 267.061
+    Train loss after mini-batch   900: 265.276
+    Train loss after mini-batch  1000: 264.666
+    Train loss after mini-batch  1100: 264.781
+    Train loss after mini-batch  1200: 264.252
+    Train loss after mini-batch  1300: 264.016
+    Train loss after mini-batch  1400: 263.889
+    Train loss after mini-batch  1500: 263.696
+    Train loss after mini-batch  1600: 263.515
+    Train loss after mini-batch  1700: 263.647
+    Train loss after mini-batch  1800: 262.951
+    Train loss after mini-batch  1900: 262.314
+    Train loss after mini-batch  2000: 261.895
+    Train loss after mini-batch  2100: 261.578
+    Train loss after mini-batch  2200: 261.398
+    Train loss after mini-batch  2300: 261.213
+    Train loss after mini-batch  2400: 261.007
+    Train loss after mini-batch  2500: 260.682
+    Train loss after mini-batch  2600: 260.397
+    Train loss after mini-batch  2700: 260.356
+    Train loss after mini-batch  2800: 260.178

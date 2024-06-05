@@ -1,0 +1,1126 @@
+{'name': 'BaselineNN_joints', 'epochs': 100, 'learning_rate': 0.0001, 'lr_decay_milestones': [0], 'lr_decay_gamma': 1.0, 'loss_function': MSELoss(), 'optimizer': <class 'torch.optim.adam.Adam'>, 'use_rotation_data': True, 'output_size': 60, 'shuffle': True, 'batch_size': 128, 'normalize': False}
+
+Start training of model: BaselineNN_joints
+
+Starting epoch 1/100
+    Train loss after mini-batch   100: 6525348.586
+    Train loss after mini-batch   200: 3318635.629
+    Train loss after mini-batch   300: 2374851.737
+    Train loss after mini-batch   400: 1894272.473
+    Train loss after mini-batch   500: 1516447.362
+    Train loss after mini-batch   600: 1319056.134
+    Train loss after mini-batch   700: 1131314.871
+    Train loss after mini-batch   800: 990506.408
+Epoch: 1/100, Train Loss: 975362.32397847, Val Loss: 1872482.94545455
+
+Starting epoch 2/100
+    Train loss after mini-batch   100: 112792.127
+    Train loss after mini-batch   200: 60375.546
+    Train loss after mini-batch   300: 42927.362
+    Train loss after mini-batch   400: 34208.205
+    Train loss after mini-batch   500: 28965.435
+    Train loss after mini-batch   600: 25476.336
+    Train loss after mini-batch   700: 22977.756
+    Train loss after mini-batch   800: 21107.926
+Epoch: 2/100, Train Loss: 20756.86174691, Val Loss: 7942.61967182
+
+Starting epoch 3/100
+    Train loss after mini-batch   100: 8006.250
+    Train loss after mini-batch   200: 8009.783
+    Train loss after mini-batch   300: 7998.891
+    Train loss after mini-batch   400: 7992.379
+    Train loss after mini-batch   500: 7988.527
+    Train loss after mini-batch   600: 7980.747
+    Train loss after mini-batch   700: 7977.739
+    Train loss after mini-batch   800: 7980.736
+Epoch: 3/100, Train Loss: 7980.16150288, Val Loss: 7893.12910600
+
+Starting epoch 4/100
+    Train loss after mini-batch   100: 7948.019
+    Train loss after mini-batch   200: 7937.777
+    Train loss after mini-batch   300: 7932.142
+    Train loss after mini-batch   400: 7931.125
+    Train loss after mini-batch   500: 7926.185
+    Train loss after mini-batch   600: 7928.226
+    Train loss after mini-batch   700: 7925.061
+    Train loss after mini-batch   800: 7927.888
+Epoch: 4/100, Train Loss: 7926.63958013, Val Loss: 7823.99674923
+
+Starting epoch 5/100
+    Train loss after mini-batch   100: 7889.029
+    Train loss after mini-batch   200: 7854.114
+    Train loss after mini-batch   300: 7874.680
+    Train loss after mini-batch   400: 7874.401
+    Train loss after mini-batch   500: 7864.359
+    Train loss after mini-batch   600: 7858.108
+    Train loss after mini-batch   700: 7860.134
+    Train loss after mini-batch   800: 7858.110
+Epoch: 5/100, Train Loss: 7856.13491651, Val Loss: 7736.10479403
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_5.pth saved!
+
+Starting epoch 6/100
+    Train loss after mini-batch   100: 7769.358
+    Train loss after mini-batch   200: 7800.644
+    Train loss after mini-batch   300: 7790.802
+    Train loss after mini-batch   400: 7788.362
+    Train loss after mini-batch   500: 7782.956
+    Train loss after mini-batch   600: 7780.178
+    Train loss after mini-batch   700: 7776.541
+    Train loss after mini-batch   800: 7771.223
+Epoch: 6/100, Train Loss: 7768.98157481, Val Loss: 7629.63913944
+
+Starting epoch 7/100
+    Train loss after mini-batch   100: 7696.267
+    Train loss after mini-batch   200: 7693.505
+    Train loss after mini-batch   300: 7700.329
+    Train loss after mini-batch   400: 7693.481
+    Train loss after mini-batch   500: 7691.327
+    Train loss after mini-batch   600: 7680.825
+    Train loss after mini-batch   700: 7671.850
+    Train loss after mini-batch   800: 7667.909
+Epoch: 7/100, Train Loss: 7665.46277717, Val Loss: 7505.28665661
+
+Starting epoch 8/100
+    Train loss after mini-batch   100: 7624.661
+    Train loss after mini-batch   200: 7617.959
+    Train loss after mini-batch   300: 7601.283
+    Train loss after mini-batch   400: 7594.436
+    Train loss after mini-batch   500: 7579.620
+    Train loss after mini-batch   600: 7567.181
+    Train loss after mini-batch   700: 7556.232
+    Train loss after mini-batch   800: 7546.819
+Epoch: 8/100, Train Loss: 7546.60307605, Val Loss: 7364.52928800
+
+Starting epoch 9/100
+    Train loss after mini-batch   100: 7462.809
+    Train loss after mini-batch   200: 7442.580
+    Train loss after mini-batch   300: 7441.369
+    Train loss after mini-batch   400: 7445.349
+    Train loss after mini-batch   500: 7440.097
+    Train loss after mini-batch   600: 7428.765
+    Train loss after mini-batch   700: 7422.576
+    Train loss after mini-batch   800: 7415.064
+Epoch: 9/100, Train Loss: 7414.13317129, Val Loss: 7209.50226977
+
+Starting epoch 10/100
+    Train loss after mini-batch   100: 7360.635
+    Train loss after mini-batch   200: 7350.879
+    Train loss after mini-batch   300: 7341.156
+    Train loss after mini-batch   400: 7321.320
+    Train loss after mini-batch   500: 7306.736
+    Train loss after mini-batch   600: 7293.775
+    Train loss after mini-batch   700: 7284.668
+    Train loss after mini-batch   800: 7270.932
+Epoch: 10/100, Train Loss: 7269.78071420, Val Loss: 7042.06828391
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_10.pth saved!
+
+Starting epoch 11/100
+    Train loss after mini-batch   100: 7202.363
+    Train loss after mini-batch   200: 7178.182
+    Train loss after mini-batch   300: 7173.006
+    Train loss after mini-batch   400: 7157.985
+    Train loss after mini-batch   500: 7149.330
+    Train loss after mini-batch   600: 7135.368
+    Train loss after mini-batch   700: 7128.995
+    Train loss after mini-batch   800: 7120.326
+Epoch: 11/100, Train Loss: 7114.88340295, Val Loss: 6864.00394028
+
+Starting epoch 12/100
+    Train loss after mini-batch   100: 6975.203
+    Train loss after mini-batch   200: 6978.708
+    Train loss after mini-batch   300: 6990.345
+    Train loss after mini-batch   400: 6990.643
+    Train loss after mini-batch   500: 6980.658
+    Train loss after mini-batch   600: 6969.270
+    Train loss after mini-batch   700: 6957.833
+    Train loss after mini-batch   800: 6953.070
+Epoch: 12/100, Train Loss: 6950.72681377, Val Loss: 6677.63611950
+
+Starting epoch 13/100
+    Train loss after mini-batch   100: 6875.988
+    Train loss after mini-batch   200: 6842.617
+    Train loss after mini-batch   300: 6825.760
+    Train loss after mini-batch   400: 6815.518
+    Train loss after mini-batch   500: 6807.297
+    Train loss after mini-batch   600: 6803.725
+    Train loss after mini-batch   700: 6788.289
+    Train loss after mini-batch   800: 6781.619
+Epoch: 13/100, Train Loss: 6778.46825518, Val Loss: 6484.51675988
+
+Starting epoch 14/100
+    Train loss after mini-batch   100: 6627.896
+    Train loss after mini-batch   200: 6659.835
+    Train loss after mini-batch   300: 6632.978
+    Train loss after mini-batch   400: 6632.705
+    Train loss after mini-batch   500: 6631.401
+    Train loss after mini-batch   600: 6621.222
+    Train loss after mini-batch   700: 6612.346
+    Train loss after mini-batch   800: 6606.665
+Epoch: 14/100, Train Loss: 6599.30647014, Val Loss: 6286.92873313
+
+Starting epoch 15/100
+    Train loss after mini-batch   100: 6475.097
+    Train loss after mini-batch   200: 6492.354
+    Train loss after mini-batch   300: 6476.765
+    Train loss after mini-batch   400: 6476.883
+    Train loss after mini-batch   500: 6464.511
+    Train loss after mini-batch   600: 6446.398
+    Train loss after mini-batch   700: 6429.811
+    Train loss after mini-batch   800: 6418.155
+Epoch: 15/100, Train Loss: 6414.62706242, Val Loss: 6087.31620650
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_15.pth saved!
+
+Starting epoch 16/100
+    Train loss after mini-batch   100: 6315.709
+    Train loss after mini-batch   200: 6281.065
+    Train loss after mini-batch   300: 6278.220
+    Train loss after mini-batch   400: 6270.185
+    Train loss after mini-batch   500: 6257.923
+    Train loss after mini-batch   600: 6251.538
+    Train loss after mini-batch   700: 6238.633
+    Train loss after mini-batch   800: 6229.162
+Epoch: 16/100, Train Loss: 6225.64532961, Val Loss: 5886.85761571
+
+Starting epoch 17/100
+    Train loss after mini-batch   100: 6150.363
+    Train loss after mini-batch   200: 6122.750
+    Train loss after mini-batch   300: 6109.394
+    Train loss after mini-batch   400: 6096.119
+    Train loss after mini-batch   500: 6082.262
+    Train loss after mini-batch   600: 6073.988
+    Train loss after mini-batch   700: 6057.936
+    Train loss after mini-batch   800: 6038.109
+Epoch: 17/100, Train Loss: 6033.53514318, Val Loss: 5687.19229107
+
+Starting epoch 18/100
+    Train loss after mini-batch   100: 5929.496
+    Train loss after mini-batch   200: 5904.356
+    Train loss after mini-batch   300: 5880.176
+    Train loss after mini-batch   400: 5876.415
+    Train loss after mini-batch   500: 5871.239
+    Train loss after mini-batch   600: 5857.485
+    Train loss after mini-batch   700: 5848.432
+    Train loss after mini-batch   800: 5843.494
+Epoch: 18/100, Train Loss: 5839.91235827, Val Loss: 5490.44229773
+
+Starting epoch 19/100
+    Train loss after mini-batch   100: 5756.295
+    Train loss after mini-batch   200: 5725.013
+    Train loss after mini-batch   300: 5717.190
+    Train loss after mini-batch   400: 5715.883
+    Train loss after mini-batch   500: 5698.121
+    Train loss after mini-batch   600: 5679.350
+    Train loss after mini-batch   700: 5668.122
+    Train loss after mini-batch   800: 5651.358
+Epoch: 19/100, Train Loss: 5647.39302720, Val Loss: 5299.52457090
+
+Starting epoch 20/100
+    Train loss after mini-batch   100: 5558.517
+    Train loss after mini-batch   200: 5544.320
+    Train loss after mini-batch   300: 5516.850
+    Train loss after mini-batch   400: 5510.433
+    Train loss after mini-batch   500: 5495.116
+    Train loss after mini-batch   600: 5480.475
+    Train loss after mini-batch   700: 5471.299
+    Train loss after mini-batch   800: 5460.673
+Epoch: 20/100, Train Loss: 5459.45035451, Val Loss: 5117.93321126
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_20.pth saved!
+
+Starting epoch 21/100
+    Train loss after mini-batch   100: 5326.934
+    Train loss after mini-batch   200: 5347.905
+    Train loss after mini-batch   300: 5334.709
+    Train loss after mini-batch   400: 5325.297
+    Train loss after mini-batch   500: 5315.587
+    Train loss after mini-batch   600: 5307.014
+    Train loss after mini-batch   700: 5293.633
+    Train loss after mini-batch   800: 5283.117
+Epoch: 21/100, Train Loss: 5280.58691109, Val Loss: 4949.74203806
+
+Starting epoch 22/100
+    Train loss after mini-batch   100: 5214.211
+    Train loss after mini-batch   200: 5193.352
+    Train loss after mini-batch   300: 5178.759
+    Train loss after mini-batch   400: 5177.548
+    Train loss after mini-batch   500: 5153.757
+    Train loss after mini-batch   600: 5139.145
+    Train loss after mini-batch   700: 5129.749
+    Train loss after mini-batch   800: 5119.186
+Epoch: 22/100, Train Loss: 5116.45933989, Val Loss: 4801.55265078
+
+Starting epoch 23/100
+    Train loss after mini-batch   100: 5044.285
+    Train loss after mini-batch   200: 5038.351
+    Train loss after mini-batch   300: 5042.756
+    Train loss after mini-batch   400: 5016.477
+    Train loss after mini-batch   500: 5006.519
+    Train loss after mini-batch   600: 4991.544
+    Train loss after mini-batch   700: 4987.243
+    Train loss after mini-batch   800: 4974.483
+Epoch: 23/100, Train Loss: 4973.56672583, Val Loss: 4678.44044633
+
+Starting epoch 24/100
+    Train loss after mini-batch   100: 4877.228
+    Train loss after mini-batch   200: 4878.029
+    Train loss after mini-batch   300: 4890.227
+    Train loss after mini-batch   400: 4878.099
+    Train loss after mini-batch   500: 4876.989
+    Train loss after mini-batch   600: 4872.525
+    Train loss after mini-batch   700: 4866.469
+    Train loss after mini-batch   800: 4859.695
+Epoch: 24/100, Train Loss: 4858.35369027, Val Loss: 4587.68498091
+
+Starting epoch 25/100
+    Train loss after mini-batch   100: 4829.916
+    Train loss after mini-batch   200: 4805.138
+    Train loss after mini-batch   300: 4792.627
+    Train loss after mini-batch   400: 4782.380
+    Train loss after mini-batch   500: 4783.884
+    Train loss after mini-batch   600: 4784.168
+    Train loss after mini-batch   700: 4780.578
+    Train loss after mini-batch   800: 4776.645
+Epoch: 25/100, Train Loss: 4774.78653407, Val Loss: 4528.44289773
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_25.pth saved!
+
+Starting epoch 26/100
+    Train loss after mini-batch   100: 4784.175
+    Train loss after mini-batch   200: 4758.869
+    Train loss after mini-batch   300: 4738.209
+    Train loss after mini-batch   400: 4730.274
+    Train loss after mini-batch   500: 4733.606
+    Train loss after mini-batch   600: 4730.438
+    Train loss after mini-batch   700: 4725.752
+    Train loss after mini-batch   800: 4722.657
+Epoch: 26/100, Train Loss: 4722.19997612, Val Loss: 4497.62205219
+
+Starting epoch 27/100
+    Train loss after mini-batch   100: 4702.979
+    Train loss after mini-batch   200: 4706.472
+    Train loss after mini-batch   300: 4695.157
+    Train loss after mini-batch   400: 4700.122
+    Train loss after mini-batch   500: 4699.833
+    Train loss after mini-batch   600: 4699.685
+    Train loss after mini-batch   700: 4699.864
+    Train loss after mini-batch   800: 4695.351
+Epoch: 27/100, Train Loss: 4694.65886694, Val Loss: 4485.37173554
+
+Starting epoch 28/100
+    Train loss after mini-batch   100: 4689.087
+    Train loss after mini-batch   200: 4697.438
+    Train loss after mini-batch   300: 4700.818
+    Train loss after mini-batch   400: 4691.983
+    Train loss after mini-batch   500: 4689.476
+    Train loss after mini-batch   600: 4685.667
+    Train loss after mini-batch   700: 4681.645
+    Train loss after mini-batch   800: 4684.088
+Epoch: 28/100, Train Loss: 4683.30501154, Val Loss: 4484.47259595
+
+Starting epoch 29/100
+    Train loss after mini-batch   100: 4666.235
+    Train loss after mini-batch   200: 4678.739
+    Train loss after mini-batch   300: 4680.725
+    Train loss after mini-batch   400: 4677.048
+    Train loss after mini-batch   500: 4674.719
+    Train loss after mini-batch   600: 4677.432
+    Train loss after mini-batch   700: 4676.874
+    Train loss after mini-batch   800: 4678.321
+Epoch: 29/100, Train Loss: 4679.84048083, Val Loss: 4484.51767319
+
+Starting epoch 30/100
+    Train loss after mini-batch   100: 4717.938
+    Train loss after mini-batch   200: 4672.577
+    Train loss after mini-batch   300: 4683.709
+    Train loss after mini-batch   400: 4685.116
+    Train loss after mini-batch   500: 4680.959
+    Train loss after mini-batch   600: 4681.645
+    Train loss after mini-batch   700: 4681.716
+    Train loss after mini-batch   800: 4679.555
+Epoch: 30/100, Train Loss: 4679.14586155, Val Loss: 4485.91188484
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_30.pth saved!
+
+Starting epoch 31/100
+    Train loss after mini-batch   100: 4678.198
+    Train loss after mini-batch   200: 4656.886
+    Train loss after mini-batch   300: 4669.331
+    Train loss after mini-batch   400: 4679.356
+    Train loss after mini-batch   500: 4678.630
+    Train loss after mini-batch   600: 4680.378
+    Train loss after mini-batch   700: 4682.730
+    Train loss after mini-batch   800: 4680.462
+Epoch: 31/100, Train Loss: 4679.05784826, Val Loss: 4487.51842226
+
+Starting epoch 32/100
+    Train loss after mini-batch   100: 4571.287
+    Train loss after mini-batch   200: 4629.012
+    Train loss after mini-batch   300: 4648.029
+    Train loss after mini-batch   400: 4650.886
+    Train loss after mini-batch   500: 4663.204
+    Train loss after mini-batch   600: 4668.426
+    Train loss after mini-batch   700: 4670.099
+    Train loss after mini-batch   800: 4677.262
+Epoch: 32/100, Train Loss: 4679.05678646, Val Loss: 4485.42749763
+
+Starting epoch 33/100
+    Train loss after mini-batch   100: 4681.732
+    Train loss after mini-batch   200: 4692.477
+    Train loss after mini-batch   300: 4688.446
+    Train loss after mini-batch   400: 4689.928
+    Train loss after mini-batch   500: 4684.945
+    Train loss after mini-batch   600: 4687.800
+    Train loss after mini-batch   700: 4685.523
+    Train loss after mini-batch   800: 4680.167
+Epoch: 33/100, Train Loss: 4679.02943974, Val Loss: 4485.41816998
+
+Starting epoch 34/100
+    Train loss after mini-batch   100: 4714.175
+    Train loss after mini-batch   200: 4680.874
+    Train loss after mini-batch   300: 4678.275
+    Train loss after mini-batch   400: 4679.060
+    Train loss after mini-batch   500: 4678.164
+    Train loss after mini-batch   600: 4673.307
+    Train loss after mini-batch   700: 4674.538
+    Train loss after mini-batch   800: 4676.665
+Epoch: 34/100, Train Loss: 4679.04216950, Val Loss: 4489.09689350
+
+Starting epoch 35/100
+    Train loss after mini-batch   100: 4687.624
+    Train loss after mini-batch   200: 4674.167
+    Train loss after mini-batch   300: 4670.634
+    Train loss after mini-batch   400: 4664.651
+    Train loss after mini-batch   500: 4666.425
+    Train loss after mini-batch   600: 4673.023
+    Train loss after mini-batch   700: 4674.064
+    Train loss after mini-batch   800: 4679.818
+Epoch: 35/100, Train Loss: 4679.08858622, Val Loss: 4488.14553223
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_35.pth saved!
+
+Starting epoch 36/100
+    Train loss after mini-batch   100: 4650.318
+    Train loss after mini-batch   200: 4674.193
+    Train loss after mini-batch   300: 4674.829
+    Train loss after mini-batch   400: 4679.497
+    Train loss after mini-batch   500: 4688.940
+    Train loss after mini-batch   600: 4690.847
+    Train loss after mini-batch   700: 4680.003
+    Train loss after mini-batch   800: 4675.001
+Epoch: 36/100, Train Loss: 4679.09450678, Val Loss: 4487.29948250
+
+Starting epoch 37/100
+    Train loss after mini-batch   100: 4721.436
+    Train loss after mini-batch   200: 4718.488
+    Train loss after mini-batch   300: 4698.166
+    Train loss after mini-batch   400: 4683.786
+    Train loss after mini-batch   500: 4673.319
+    Train loss after mini-batch   600: 4682.891
+    Train loss after mini-batch   700: 4679.107
+    Train loss after mini-batch   800: 4680.955
+Epoch: 37/100, Train Loss: 4679.06384634, Val Loss: 4486.00119592
+
+Starting epoch 38/100
+    Train loss after mini-batch   100: 4689.086
+    Train loss after mini-batch   200: 4718.257
+    Train loss after mini-batch   300: 4698.724
+    Train loss after mini-batch   400: 4678.369
+    Train loss after mini-batch   500: 4683.033
+    Train loss after mini-batch   600: 4685.706
+    Train loss after mini-batch   700: 4680.919
+    Train loss after mini-batch   800: 4681.189
+Epoch: 38/100, Train Loss: 4679.04722517, Val Loss: 4490.20161651
+
+Starting epoch 39/100
+    Train loss after mini-batch   100: 4636.910
+    Train loss after mini-batch   200: 4663.133
+    Train loss after mini-batch   300: 4681.980
+    Train loss after mini-batch   400: 4682.800
+    Train loss after mini-batch   500: 4681.136
+    Train loss after mini-batch   600: 4680.769
+    Train loss after mini-batch   700: 4679.723
+    Train loss after mini-batch   800: 4678.148
+Epoch: 39/100, Train Loss: 4679.04215257, Val Loss: 4483.17861772
+
+Starting epoch 40/100
+    Train loss after mini-batch   100: 4682.868
+    Train loss after mini-batch   200: 4701.362
+    Train loss after mini-batch   300: 4687.187
+    Train loss after mini-batch   400: 4702.417
+    Train loss after mini-batch   500: 4692.350
+    Train loss after mini-batch   600: 4690.982
+    Train loss after mini-batch   700: 4679.555
+    Train loss after mini-batch   800: 4678.492
+Epoch: 40/100, Train Loss: 4679.07303191, Val Loss: 4487.85045277
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_40.pth saved!
+
+Starting epoch 41/100
+    Train loss after mini-batch   100: 4693.484
+    Train loss after mini-batch   200: 4659.669
+    Train loss after mini-batch   300: 4677.729
+    Train loss after mini-batch   400: 4665.691
+    Train loss after mini-batch   500: 4660.646
+    Train loss after mini-batch   600: 4670.829
+    Train loss after mini-batch   700: 4676.975
+    Train loss after mini-batch   800: 4680.340
+Epoch: 41/100, Train Loss: 4679.05785479, Val Loss: 4486.02908307
+
+Starting epoch 42/100
+    Train loss after mini-batch   100: 4664.878
+    Train loss after mini-batch   200: 4667.600
+    Train loss after mini-batch   300: 4690.033
+    Train loss after mini-batch   400: 4685.094
+    Train loss after mini-batch   500: 4673.079
+    Train loss after mini-batch   600: 4680.781
+    Train loss after mini-batch   700: 4681.918
+    Train loss after mini-batch   800: 4677.421
+Epoch: 42/100, Train Loss: 4679.04752456, Val Loss: 4482.36817812
+
+Starting epoch 43/100
+    Train loss after mini-batch   100: 4637.318
+    Train loss after mini-batch   200: 4659.231
+    Train loss after mini-batch   300: 4673.328
+    Train loss after mini-batch   400: 4673.334
+    Train loss after mini-batch   500: 4680.545
+    Train loss after mini-batch   600: 4684.497
+    Train loss after mini-batch   700: 4683.989
+    Train loss after mini-batch   800: 4680.329
+Epoch: 43/100, Train Loss: 4679.11622846, Val Loss: 4484.62276130
+
+Starting epoch 44/100
+    Train loss after mini-batch   100: 4689.030
+    Train loss after mini-batch   200: 4680.986
+    Train loss after mini-batch   300: 4684.179
+    Train loss after mini-batch   400: 4679.555
+    Train loss after mini-batch   500: 4676.368
+    Train loss after mini-batch   600: 4685.923
+    Train loss after mini-batch   700: 4683.620
+    Train loss after mini-batch   800: 4678.335
+Epoch: 44/100, Train Loss: 4679.08380766, Val Loss: 4487.42286377
+
+Starting epoch 45/100
+    Train loss after mini-batch   100: 4746.890
+    Train loss after mini-batch   200: 4710.233
+    Train loss after mini-batch   300: 4693.979
+    Train loss after mini-batch   400: 4690.288
+    Train loss after mini-batch   500: 4688.794
+    Train loss after mini-batch   600: 4686.059
+    Train loss after mini-batch   700: 4681.610
+    Train loss after mini-batch   800: 4680.179
+Epoch: 45/100, Train Loss: 4679.07032676, Val Loss: 4485.06124785
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_45.pth saved!
+
+Starting epoch 46/100
+    Train loss after mini-batch   100: 4598.310
+    Train loss after mini-batch   200: 4672.426
+    Train loss after mini-batch   300: 4679.484
+    Train loss after mini-batch   400: 4667.146
+    Train loss after mini-batch   500: 4670.282
+    Train loss after mini-batch   600: 4673.261
+    Train loss after mini-batch   700: 4674.526
+    Train loss after mini-batch   800: 4676.550
+Epoch: 46/100, Train Loss: 4679.07690400, Val Loss: 4485.20951816
+
+Starting epoch 47/100
+    Train loss after mini-batch   100: 4723.243
+    Train loss after mini-batch   200: 4707.001
+    Train loss after mini-batch   300: 4698.770
+    Train loss after mini-batch   400: 4692.131
+    Train loss after mini-batch   500: 4689.230
+    Train loss after mini-batch   600: 4682.959
+    Train loss after mini-batch   700: 4686.045
+    Train loss after mini-batch   800: 4680.948
+Epoch: 47/100, Train Loss: 4679.08416436, Val Loss: 4488.89599239
+
+Starting epoch 48/100
+    Train loss after mini-batch   100: 4680.826
+    Train loss after mini-batch   200: 4693.728
+    Train loss after mini-batch   300: 4687.407
+    Train loss after mini-batch   400: 4693.786
+    Train loss after mini-batch   500: 4688.299
+    Train loss after mini-batch   600: 4682.578
+    Train loss after mini-batch   700: 4684.269
+    Train loss after mini-batch   800: 4680.934
+Epoch: 48/100, Train Loss: 4679.09508713, Val Loss: 4487.75374645
+
+Starting epoch 49/100
+    Train loss after mini-batch   100: 4679.556
+    Train loss after mini-batch   200: 4645.898
+    Train loss after mini-batch   300: 4662.017
+    Train loss after mini-batch   400: 4679.381
+    Train loss after mini-batch   500: 4681.205
+    Train loss after mini-batch   600: 4680.738
+    Train loss after mini-batch   700: 4681.706
+    Train loss after mini-batch   800: 4681.015
+Epoch: 49/100, Train Loss: 4679.06660138, Val Loss: 4483.86999771
+
+Starting epoch 50/100
+    Train loss after mini-batch   100: 4669.447
+    Train loss after mini-batch   200: 4689.903
+    Train loss after mini-batch   300: 4692.942
+    Train loss after mini-batch   400: 4691.613
+    Train loss after mini-batch   500: 4688.688
+    Train loss after mini-batch   600: 4687.997
+    Train loss after mini-batch   700: 4685.276
+    Train loss after mini-batch   800: 4680.296
+Epoch: 50/100, Train Loss: 4679.08332799, Val Loss: 4483.26215783
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_50.pth saved!
+
+Starting epoch 51/100
+    Train loss after mini-batch   100: 4731.380
+    Train loss after mini-batch   200: 4695.262
+    Train loss after mini-batch   300: 4696.125
+    Train loss after mini-batch   400: 4689.557
+    Train loss after mini-batch   500: 4685.816
+    Train loss after mini-batch   600: 4689.717
+    Train loss after mini-batch   700: 4685.263
+    Train loss after mini-batch   800: 4678.828
+Epoch: 51/100, Train Loss: 4679.07273430, Val Loss: 4486.61358347
+
+Starting epoch 52/100
+    Train loss after mini-batch   100: 4665.138
+    Train loss after mini-batch   200: 4657.146
+    Train loss after mini-batch   300: 4707.319
+    Train loss after mini-batch   400: 4705.429
+    Train loss after mini-batch   500: 4693.125
+    Train loss after mini-batch   600: 4689.153
+    Train loss after mini-batch   700: 4682.299
+    Train loss after mini-batch   800: 4679.720
+Epoch: 52/100, Train Loss: 4679.07529927, Val Loss: 4484.52187907
+
+Starting epoch 53/100
+    Train loss after mini-batch   100: 4649.818
+    Train loss after mini-batch   200: 4665.584
+    Train loss after mini-batch   300: 4675.442
+    Train loss after mini-batch   400: 4695.913
+    Train loss after mini-batch   500: 4684.582
+    Train loss after mini-batch   600: 4686.233
+    Train loss after mini-batch   700: 4682.036
+    Train loss after mini-batch   800: 4679.538
+Epoch: 53/100, Train Loss: 4679.09402978, Val Loss: 4487.59422755
+
+Starting epoch 54/100
+    Train loss after mini-batch   100: 4711.173
+    Train loss after mini-batch   200: 4676.173
+    Train loss after mini-batch   300: 4669.998
+    Train loss after mini-batch   400: 4670.174
+    Train loss after mini-batch   500: 4675.203
+    Train loss after mini-batch   600: 4683.189
+    Train loss after mini-batch   700: 4679.583
+    Train loss after mini-batch   800: 4678.075
+Epoch: 54/100, Train Loss: 4679.09360536, Val Loss: 4485.22190348
+
+Starting epoch 55/100
+    Train loss after mini-batch   100: 4708.735
+    Train loss after mini-batch   200: 4678.754
+    Train loss after mini-batch   300: 4681.895
+    Train loss after mini-batch   400: 4690.753
+    Train loss after mini-batch   500: 4686.030
+    Train loss after mini-batch   600: 4689.981
+    Train loss after mini-batch   700: 4688.727
+    Train loss after mini-batch   800: 4678.859
+Epoch: 55/100, Train Loss: 4679.08943121, Val Loss: 4485.08748039
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_55.pth saved!
+
+Starting epoch 56/100
+    Train loss after mini-batch   100: 4668.261
+    Train loss after mini-batch   200: 4673.519
+    Train loss after mini-batch   300: 4660.704
+    Train loss after mini-batch   400: 4662.393
+    Train loss after mini-batch   500: 4673.328
+    Train loss after mini-batch   600: 4672.532
+    Train loss after mini-batch   700: 4670.709
+    Train loss after mini-batch   800: 4678.905
+Epoch: 56/100, Train Loss: 4679.05144714, Val Loss: 4487.01430035
+
+Starting epoch 57/100
+    Train loss after mini-batch   100: 4710.675
+    Train loss after mini-batch   200: 4701.521
+    Train loss after mini-batch   300: 4706.938
+    Train loss after mini-batch   400: 4686.061
+    Train loss after mini-batch   500: 4673.165
+    Train loss after mini-batch   600: 4679.618
+    Train loss after mini-batch   700: 4685.396
+    Train loss after mini-batch   800: 4679.977
+Epoch: 57/100, Train Loss: 4679.04539174, Val Loss: 4484.78939357
+
+Starting epoch 58/100
+    Train loss after mini-batch   100: 4694.148
+    Train loss after mini-batch   200: 4699.305
+    Train loss after mini-batch   300: 4694.297
+    Train loss after mini-batch   400: 4684.723
+    Train loss after mini-batch   500: 4684.137
+    Train loss after mini-batch   600: 4678.383
+    Train loss after mini-batch   700: 4675.141
+    Train loss after mini-batch   800: 4679.566
+Epoch: 58/100, Train Loss: 4679.11834821, Val Loss: 4487.45568552
+
+Starting epoch 59/100
+    Train loss after mini-batch   100: 4671.741
+    Train loss after mini-batch   200: 4702.135
+    Train loss after mini-batch   300: 4712.501
+    Train loss after mini-batch   400: 4701.076
+    Train loss after mini-batch   500: 4694.857
+    Train loss after mini-batch   600: 4691.742
+    Train loss after mini-batch   700: 4683.361
+    Train loss after mini-batch   800: 4681.391
+Epoch: 59/100, Train Loss: 4679.04454675, Val Loss: 4485.18868334
+
+Starting epoch 60/100
+    Train loss after mini-batch   100: 4658.935
+    Train loss after mini-batch   200: 4668.287
+    Train loss after mini-batch   300: 4679.738
+    Train loss after mini-batch   400: 4697.576
+    Train loss after mini-batch   500: 4694.668
+    Train loss after mini-batch   600: 4692.653
+    Train loss after mini-batch   700: 4685.134
+    Train loss after mini-batch   800: 4677.693
+Epoch: 60/100, Train Loss: 4679.09111346, Val Loss: 4485.70364472
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_60.pth saved!
+
+Starting epoch 61/100
+    Train loss after mini-batch   100: 4654.114
+    Train loss after mini-batch   200: 4682.662
+    Train loss after mini-batch   300: 4689.691
+    Train loss after mini-batch   400: 4675.698
+    Train loss after mini-batch   500: 4677.982
+    Train loss after mini-batch   600: 4679.177
+    Train loss after mini-batch   700: 4676.688
+    Train loss after mini-batch   800: 4678.972
+Epoch: 61/100, Train Loss: 4679.05788776, Val Loss: 4487.02700084
+
+Starting epoch 62/100
+    Train loss after mini-batch   100: 4674.121
+    Train loss after mini-batch   200: 4691.090
+    Train loss after mini-batch   300: 4684.618
+    Train loss after mini-batch   400: 4684.860
+    Train loss after mini-batch   500: 4679.993
+    Train loss after mini-batch   600: 4678.584
+    Train loss after mini-batch   700: 4678.796
+    Train loss after mini-batch   800: 4680.556
+Epoch: 62/100, Train Loss: 4679.07856457, Val Loss: 4487.81513487
+
+Starting epoch 63/100
+    Train loss after mini-batch   100: 4696.361
+    Train loss after mini-batch   200: 4694.880
+    Train loss after mini-batch   300: 4681.548
+    Train loss after mini-batch   400: 4679.010
+    Train loss after mini-batch   500: 4681.582
+    Train loss after mini-batch   600: 4684.117
+    Train loss after mini-batch   700: 4673.339
+    Train loss after mini-batch   800: 4679.163
+Epoch: 63/100, Train Loss: 4679.04820649, Val Loss: 4492.19798362
+
+Starting epoch 64/100
+    Train loss after mini-batch   100: 4706.339
+    Train loss after mini-batch   200: 4669.586
+    Train loss after mini-batch   300: 4671.351
+    Train loss after mini-batch   400: 4674.093
+    Train loss after mini-batch   500: 4676.231
+    Train loss after mini-batch   600: 4680.851
+    Train loss after mini-batch   700: 4677.125
+    Train loss after mini-batch   800: 4680.019
+Epoch: 64/100, Train Loss: 4679.11582661, Val Loss: 4489.31109619
+
+Starting epoch 65/100
+    Train loss after mini-batch   100: 4661.803
+    Train loss after mini-batch   200: 4681.708
+    Train loss after mini-batch   300: 4691.295
+    Train loss after mini-batch   400: 4675.639
+    Train loss after mini-batch   500: 4668.873
+    Train loss after mini-batch   600: 4667.172
+    Train loss after mini-batch   700: 4673.368
+    Train loss after mini-batch   800: 4680.088
+Epoch: 65/100, Train Loss: 4679.09595083, Val Loss: 4486.93870517
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_65.pth saved!
+
+Starting epoch 66/100
+    Train loss after mini-batch   100: 4651.434
+    Train loss after mini-batch   200: 4677.598
+    Train loss after mini-batch   300: 4664.843
+    Train loss after mini-batch   400: 4672.616
+    Train loss after mini-batch   500: 4679.460
+    Train loss after mini-batch   600: 4681.155
+    Train loss after mini-batch   700: 4680.201
+    Train loss after mini-batch   800: 4678.068
+Epoch: 66/100, Train Loss: 4679.05893679, Val Loss: 4489.79574862
+
+Starting epoch 67/100
+    Train loss after mini-batch   100: 4706.910
+    Train loss after mini-batch   200: 4684.890
+    Train loss after mini-batch   300: 4678.263
+    Train loss after mini-batch   400: 4681.142
+    Train loss after mini-batch   500: 4685.499
+    Train loss after mini-batch   600: 4684.748
+    Train loss after mini-batch   700: 4686.760
+    Train loss after mini-batch   800: 4680.749
+Epoch: 67/100, Train Loss: 4679.05324285, Val Loss: 4483.75586566
+
+Starting epoch 68/100
+    Train loss after mini-batch   100: 4711.713
+    Train loss after mini-batch   200: 4709.144
+    Train loss after mini-batch   300: 4694.256
+    Train loss after mini-batch   400: 4695.665
+    Train loss after mini-batch   500: 4688.981
+    Train loss after mini-batch   600: 4686.594
+    Train loss after mini-batch   700: 4686.378
+    Train loss after mini-batch   800: 4676.532
+Epoch: 68/100, Train Loss: 4679.08174226, Val Loss: 4484.65360588
+
+Starting epoch 69/100
+    Train loss after mini-batch   100: 4676.749
+    Train loss after mini-batch   200: 4686.216
+    Train loss after mini-batch   300: 4693.135
+    Train loss after mini-batch   400: 4675.530
+    Train loss after mini-batch   500: 4676.638
+    Train loss after mini-batch   600: 4672.308
+    Train loss after mini-batch   700: 4671.832
+    Train loss after mini-batch   800: 4677.575
+Epoch: 69/100, Train Loss: 4679.04940699, Val Loss: 4484.51616470
+
+Starting epoch 70/100
+    Train loss after mini-batch   100: 4631.294
+    Train loss after mini-batch   200: 4650.293
+    Train loss after mini-batch   300: 4665.272
+    Train loss after mini-batch   400: 4670.580
+    Train loss after mini-batch   500: 4674.071
+    Train loss after mini-batch   600: 4680.728
+    Train loss after mini-batch   700: 4676.553
+    Train loss after mini-batch   800: 4680.364
+Epoch: 70/100, Train Loss: 4679.08404556, Val Loss: 4483.04982799
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_70.pth saved!
+
+Starting epoch 71/100
+    Train loss after mini-batch   100: 4673.125
+    Train loss after mini-batch   200: 4674.556
+    Train loss after mini-batch   300: 4693.751
+    Train loss after mini-batch   400: 4691.167
+    Train loss after mini-batch   500: 4687.194
+    Train loss after mini-batch   600: 4685.557
+    Train loss after mini-batch   700: 4683.049
+    Train loss after mini-batch   800: 4677.819
+Epoch: 71/100, Train Loss: 4679.10607762, Val Loss: 4488.13620642
+
+Starting epoch 72/100
+    Train loss after mini-batch   100: 4640.296
+    Train loss after mini-batch   200: 4656.790
+    Train loss after mini-batch   300: 4662.438
+    Train loss after mini-batch   400: 4676.935
+    Train loss after mini-batch   500: 4677.744
+    Train loss after mini-batch   600: 4677.057
+    Train loss after mini-batch   700: 4680.221
+    Train loss after mini-batch   800: 4680.219
+Epoch: 72/100, Train Loss: 4679.07433340, Val Loss: 4485.91411133
+
+Starting epoch 73/100
+    Train loss after mini-batch   100: 4686.278
+    Train loss after mini-batch   200: 4684.894
+    Train loss after mini-batch   300: 4681.648
+    Train loss after mini-batch   400: 4681.938
+    Train loss after mini-batch   500: 4677.240
+    Train loss after mini-batch   600: 4679.868
+    Train loss after mini-batch   700: 4681.010
+    Train loss after mini-batch   800: 4679.351
+Epoch: 73/100, Train Loss: 4679.07435597, Val Loss: 4486.09797326
+
+Starting epoch 74/100
+    Train loss after mini-batch   100: 4723.095
+    Train loss after mini-batch   200: 4714.773
+    Train loss after mini-batch   300: 4707.775
+    Train loss after mini-batch   400: 4688.846
+    Train loss after mini-batch   500: 4687.749
+    Train loss after mini-batch   600: 4690.926
+    Train loss after mini-batch   700: 4682.085
+    Train loss after mini-batch   800: 4681.779
+Epoch: 74/100, Train Loss: 4679.04805590, Val Loss: 4490.16204242
+
+Starting epoch 75/100
+    Train loss after mini-batch   100: 4675.561
+    Train loss after mini-batch   200: 4691.342
+    Train loss after mini-batch   300: 4680.344
+    Train loss after mini-batch   400: 4679.984
+    Train loss after mini-batch   500: 4669.153
+    Train loss after mini-batch   600: 4672.738
+    Train loss after mini-batch   700: 4672.215
+    Train loss after mini-batch   800: 4679.072
+Epoch: 75/100, Train Loss: 4679.10567666, Val Loss: 4488.42210915
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_75.pth saved!
+
+Starting epoch 76/100
+    Train loss after mini-batch   100: 4664.163
+    Train loss after mini-batch   200: 4667.956
+    Train loss after mini-batch   300: 4669.648
+    Train loss after mini-batch   400: 4669.213
+    Train loss after mini-batch   500: 4667.390
+    Train loss after mini-batch   600: 4670.878
+    Train loss after mini-batch   700: 4678.206
+    Train loss after mini-batch   800: 4678.232
+Epoch: 76/100, Train Loss: 4679.09952621, Val Loss: 4488.19152166
+
+Starting epoch 77/100
+    Train loss after mini-batch   100: 4699.009
+    Train loss after mini-batch   200: 4673.310
+    Train loss after mini-batch   300: 4687.262
+    Train loss after mini-batch   400: 4685.771
+    Train loss after mini-batch   500: 4684.623
+    Train loss after mini-batch   600: 4676.242
+    Train loss after mini-batch   700: 4677.729
+    Train loss after mini-batch   800: 4679.617
+Epoch: 77/100, Train Loss: 4679.09080160, Val Loss: 4484.39035238
+
+Starting epoch 78/100
+    Train loss after mini-batch   100: 4679.823
+    Train loss after mini-batch   200: 4687.009
+    Train loss after mini-batch   300: 4696.760
+    Train loss after mini-batch   400: 4697.494
+    Train loss after mini-batch   500: 4693.950
+    Train loss after mini-batch   600: 4692.979
+    Train loss after mini-batch   700: 4688.336
+    Train loss after mini-batch   800: 4679.496
+Epoch: 78/100, Train Loss: 4679.08279575, Val Loss: 4484.89764182
+
+Starting epoch 79/100
+    Train loss after mini-batch   100: 4640.401
+    Train loss after mini-batch   200: 4637.909
+    Train loss after mini-batch   300: 4658.165
+    Train loss after mini-batch   400: 4663.760
+    Train loss after mini-batch   500: 4665.285
+    Train loss after mini-batch   600: 4673.015
+    Train loss after mini-batch   700: 4678.386
+    Train loss after mini-batch   800: 4679.729
+Epoch: 79/100, Train Loss: 4679.07742228, Val Loss: 4485.87891846
+
+Starting epoch 80/100
+    Train loss after mini-batch   100: 4651.482
+    Train loss after mini-batch   200: 4664.186
+    Train loss after mini-batch   300: 4678.941
+    Train loss after mini-batch   400: 4673.271
+    Train loss after mini-batch   500: 4686.277
+    Train loss after mini-batch   600: 4681.123
+    Train loss after mini-batch   700: 4683.472
+    Train loss after mini-batch   800: 4681.795
+Epoch: 80/100, Train Loss: 4679.08516023, Val Loss: 4486.67407338
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_80.pth saved!
+
+Starting epoch 81/100
+    Train loss after mini-batch   100: 4673.738
+    Train loss after mini-batch   200: 4662.691
+    Train loss after mini-batch   300: 4671.107
+    Train loss after mini-batch   400: 4684.595
+    Train loss after mini-batch   500: 4677.855
+    Train loss after mini-batch   600: 4679.203
+    Train loss after mini-batch   700: 4675.376
+    Train loss after mini-batch   800: 4675.769
+Epoch: 81/100, Train Loss: 4679.07926521, Val Loss: 4487.02945076
+
+Starting epoch 82/100
+    Train loss after mini-batch   100: 4658.125
+    Train loss after mini-batch   200: 4673.757
+    Train loss after mini-batch   300: 4684.359
+    Train loss after mini-batch   400: 4680.532
+    Train loss after mini-batch   500: 4682.490
+    Train loss after mini-batch   600: 4685.437
+    Train loss after mini-batch   700: 4683.498
+    Train loss after mini-batch   800: 4680.136
+Epoch: 82/100, Train Loss: 4679.05367233, Val Loss: 4485.98863784
+
+Starting epoch 83/100
+    Train loss after mini-batch   100: 4694.526
+    Train loss after mini-batch   200: 4676.995
+    Train loss after mini-batch   300: 4672.252
+    Train loss after mini-batch   400: 4679.295
+    Train loss after mini-batch   500: 4681.477
+    Train loss after mini-batch   600: 4682.454
+    Train loss after mini-batch   700: 4683.569
+    Train loss after mini-batch   800: 4680.227
+Epoch: 83/100, Train Loss: 4679.07581457, Val Loss: 4483.50791349
+
+Starting epoch 84/100
+    Train loss after mini-batch   100: 4693.832
+    Train loss after mini-batch   200: 4665.614
+    Train loss after mini-batch   300: 4659.879
+    Train loss after mini-batch   400: 4661.521
+    Train loss after mini-batch   500: 4673.290
+    Train loss after mini-batch   600: 4670.147
+    Train loss after mini-batch   700: 4672.388
+    Train loss after mini-batch   800: 4675.960
+Epoch: 84/100, Train Loss: 4679.09560125, Val Loss: 4487.68938247
+
+Starting epoch 85/100
+    Train loss after mini-batch   100: 4695.694
+    Train loss after mini-batch   200: 4670.767
+    Train loss after mini-batch   300: 4675.833
+    Train loss after mini-batch   400: 4684.243
+    Train loss after mini-batch   500: 4688.346
+    Train loss after mini-batch   600: 4689.856
+    Train loss after mini-batch   700: 4683.074
+    Train loss after mini-batch   800: 4680.108
+Epoch: 85/100, Train Loss: 4679.10436121, Val Loss: 4487.40182107
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_85.pth saved!
+
+Starting epoch 86/100
+    Train loss after mini-batch   100: 4713.600
+    Train loss after mini-batch   200: 4694.267
+    Train loss after mini-batch   300: 4696.505
+    Train loss after mini-batch   400: 4679.718
+    Train loss after mini-batch   500: 4693.977
+    Train loss after mini-batch   600: 4683.242
+    Train loss after mini-batch   700: 4685.220
+    Train loss after mini-batch   800: 4680.747
+Epoch: 86/100, Train Loss: 4679.06946246, Val Loss: 4488.76499356
+
+Starting epoch 87/100
+    Train loss after mini-batch   100: 4698.292
+    Train loss after mini-batch   200: 4688.887
+    Train loss after mini-batch   300: 4684.798
+    Train loss after mini-batch   400: 4687.275
+    Train loss after mini-batch   500: 4687.467
+    Train loss after mini-batch   600: 4682.371
+    Train loss after mini-batch   700: 4677.950
+    Train loss after mini-batch   800: 4680.394
+Epoch: 87/100, Train Loss: 4679.08431257, Val Loss: 4489.85298776
+
+Starting epoch 88/100
+    Train loss after mini-batch   100: 4699.595
+    Train loss after mini-batch   200: 4715.542
+    Train loss after mini-batch   300: 4701.330
+    Train loss after mini-batch   400: 4693.872
+    Train loss after mini-batch   500: 4681.254
+    Train loss after mini-batch   600: 4679.194
+    Train loss after mini-batch   700: 4686.901
+    Train loss after mini-batch   800: 4678.835
+Epoch: 88/100, Train Loss: 4679.08361222, Val Loss: 4488.50111195
+
+Starting epoch 89/100
+    Train loss after mini-batch   100: 4733.422
+    Train loss after mini-batch   200: 4712.647
+    Train loss after mini-batch   300: 4702.582
+    Train loss after mini-batch   400: 4689.442
+    Train loss after mini-batch   500: 4687.790
+    Train loss after mini-batch   600: 4687.259
+    Train loss after mini-batch   700: 4682.172
+    Train loss after mini-batch   800: 4680.278
+Epoch: 89/100, Train Loss: 4679.07591793, Val Loss: 4485.51522661
+
+Starting epoch 90/100
+    Train loss after mini-batch   100: 4664.186
+    Train loss after mini-batch   200: 4669.614
+    Train loss after mini-batch   300: 4671.027
+    Train loss after mini-batch   400: 4680.129
+    Train loss after mini-batch   500: 4681.235
+    Train loss after mini-batch   600: 4680.397
+    Train loss after mini-batch   700: 4674.605
+    Train loss after mini-batch   800: 4679.542
+Epoch: 90/100, Train Loss: 4679.06888953, Val Loss: 4489.82638457
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_90.pth saved!
+
+Starting epoch 91/100
+    Train loss after mini-batch   100: 4658.547
+    Train loss after mini-batch   200: 4667.210
+    Train loss after mini-batch   300: 4675.036
+    Train loss after mini-batch   400: 4678.611
+    Train loss after mini-batch   500: 4687.972
+    Train loss after mini-batch   600: 4683.836
+    Train loss after mini-batch   700: 4681.977
+    Train loss after mini-batch   800: 4677.713
+Epoch: 91/100, Train Loss: 4679.07613980, Val Loss: 4490.13853242
+
+Starting epoch 92/100
+    Train loss after mini-batch   100: 4665.468
+    Train loss after mini-batch   200: 4685.213
+    Train loss after mini-batch   300: 4674.557
+    Train loss after mini-batch   400: 4669.949
+    Train loss after mini-batch   500: 4667.045
+    Train loss after mini-batch   600: 4672.051
+    Train loss after mini-batch   700: 4672.439
+    Train loss after mini-batch   800: 4679.026
+Epoch: 92/100, Train Loss: 4679.09062785, Val Loss: 4488.30514286
+
+Starting epoch 93/100
+    Train loss after mini-batch   100: 4687.511
+    Train loss after mini-batch   200: 4687.693
+    Train loss after mini-batch   300: 4666.637
+    Train loss after mini-batch   400: 4682.115
+    Train loss after mini-batch   500: 4685.052
+    Train loss after mini-batch   600: 4680.838
+    Train loss after mini-batch   700: 4678.677
+    Train loss after mini-batch   800: 4678.467
+Epoch: 93/100, Train Loss: 4679.09719173, Val Loss: 4489.44113437
+
+Starting epoch 94/100
+    Train loss after mini-batch   100: 4613.910
+    Train loss after mini-batch   200: 4650.586
+    Train loss after mini-batch   300: 4648.250
+    Train loss after mini-batch   400: 4643.243
+    Train loss after mini-batch   500: 4658.813
+    Train loss after mini-batch   600: 4660.725
+    Train loss after mini-batch   700: 4669.791
+    Train loss after mini-batch   800: 4677.639
+Epoch: 94/100, Train Loss: 4679.10729476, Val Loss: 4491.52404341
+
+Starting epoch 95/100
+    Train loss after mini-batch   100: 4698.282
+    Train loss after mini-batch   200: 4687.281
+    Train loss after mini-batch   300: 4685.598
+    Train loss after mini-batch   400: 4689.250
+    Train loss after mini-batch   500: 4682.692
+    Train loss after mini-batch   600: 4674.616
+    Train loss after mini-batch   700: 4680.735
+    Train loss after mini-batch   800: 4677.334
+Epoch: 95/100, Train Loss: 4679.09734825, Val Loss: 4486.86355979
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_95.pth saved!
+
+Starting epoch 96/100
+    Train loss after mini-batch   100: 4696.394
+    Train loss after mini-batch   200: 4709.206
+    Train loss after mini-batch   300: 4702.595
+    Train loss after mini-batch   400: 4692.203
+    Train loss after mini-batch   500: 4700.552
+    Train loss after mini-batch   600: 4691.665
+    Train loss after mini-batch   700: 4681.501
+    Train loss after mini-batch   800: 4676.752
+Epoch: 96/100, Train Loss: 4679.04880674, Val Loss: 4483.85097360
+
+Starting epoch 97/100
+    Train loss after mini-batch   100: 4657.274
+    Train loss after mini-batch   200: 4668.039
+    Train loss after mini-batch   300: 4671.115
+    Train loss after mini-batch   400: 4679.864
+    Train loss after mini-batch   500: 4670.970
+    Train loss after mini-batch   600: 4678.522
+    Train loss after mini-batch   700: 4677.553
+    Train loss after mini-batch   800: 4679.428
+Epoch: 97/100, Train Loss: 4679.06031491, Val Loss: 4482.78956965
+
+Starting epoch 98/100
+    Train loss after mini-batch   100: 4645.958
+    Train loss after mini-batch   200: 4656.992
+    Train loss after mini-batch   300: 4657.685
+    Train loss after mini-batch   400: 4675.800
+    Train loss after mini-batch   500: 4678.450
+    Train loss after mini-batch   600: 4679.218
+    Train loss after mini-batch   700: 4677.975
+    Train loss after mini-batch   800: 4677.452
+Epoch: 98/100, Train Loss: 4679.08385191, Val Loss: 4485.63875030
+
+Starting epoch 99/100
+    Train loss after mini-batch   100: 4700.990
+    Train loss after mini-batch   200: 4689.018
+    Train loss after mini-batch   300: 4696.096
+    Train loss after mini-batch   400: 4682.823
+    Train loss after mini-batch   500: 4682.739
+    Train loss after mini-batch   600: 4678.384
+    Train loss after mini-batch   700: 4680.859
+    Train loss after mini-batch   800: 4679.812
+Epoch: 99/100, Train Loss: 4679.09475389, Val Loss: 4488.40854085
+
+Starting epoch 100/100
+    Train loss after mini-batch   100: 4703.002
+    Train loss after mini-batch   200: 4661.005
+    Train loss after mini-batch   300: 4680.889
+    Train loss after mini-batch   400: 4679.781
+    Train loss after mini-batch   500: 4672.493
+    Train loss after mini-batch   600: 4670.993
+    Train loss after mini-batch   700: 4680.052
+    Train loss after mini-batch   800: 4679.695
+Epoch: 100/100, Train Loss: 4679.07567973, Val Loss: 4484.98759766
+Model models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model_epoch_100.pth saved!
+Training process has finished.
+Saving model... 
+Saved: models/BaselineNN/BaselineNN_joints/2022-10-11_21-14-07/model.pth

@@ -1,0 +1,38 @@
+{'name': 'LinearRegression_no_rot', 'epochs': 100, 'input_size': 407040, 'output_size': 63, 'lr_decay_milestones': [0], 'lr_decay_gamma': 1.0, 'loss_function': MSELoss(), 'optimizer': <class 'torch.optim.adam.Adam'>, 'use_rotation_data': False, 'shuffle': True, 'batch_size': 256, 'normalize': False, 'description': '\nEine einfache lineare Regression ohne Rotation\n'}
+
+Start training of model: LinearRegression_no_rot
+
+Starting epoch 1/100
+    Train loss after mini-batch   100: 69522251826.450
+    Train loss after mini-batch   200: 34763480397.274
+    Train loss after mini-batch   300: 23175885713.092
+    Train loss after mini-batch   400: 17382010230.324
+    Train loss after mini-batch   500: 13905658861.227
+Epoch: 1/100, Train Loss: 13526911073.65883446, Val Loss: 199329.01319782
+
+Starting epoch 2/100
+    Train loss after mini-batch   100: 177662.553
+    Train loss after mini-batch   200: 164253.945
+    Train loss after mini-batch   300: 146765.860
+    Train loss after mini-batch   400: 137957.803
+    Train loss after mini-batch   500: 129037.027
+Epoch: 2/100, Train Loss: 127794.54381992, Val Loss: 76308.73596784
+
+Starting epoch 3/100
+    Train loss after mini-batch   100: 156004.884
+    Train loss after mini-batch   200: 16041283.007
+    Train loss after mini-batch   300: 11765985.253
+    Train loss after mini-batch   400: 16307058.180
+    Train loss after mini-batch   500: 16776215.066
+Epoch: 3/100, Train Loss: 16357510.30892814, Val Loss: 602227.45600728
+
+Starting epoch 4/100
+    Train loss after mini-batch   100: 47402172.900
+    Train loss after mini-batch   200: 24761298.655
+    Train loss after mini-batch   300: 17363011.859
+    Train loss after mini-batch   400: 20152372.377
+    Train loss after mini-batch   500: 453812450.879
+Epoch: 4/100, Train Loss: 451900989.57136887, Val Loss: 165471215.37864077
+
+Starting epoch 5/100
+    Train loss after mini-batch   100: 178238434.722
